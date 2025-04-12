@@ -42,6 +42,8 @@ java RedoHistoryRecoveryInteractive
 
 ## 🧪 نمونه استفاده
 
+</div>
+
 ```
 > BEGIN T1
 > WRITE T1 A val1
@@ -53,8 +55,12 @@ java RedoHistoryRecoveryInteractive
 > CRASH
 > EXIT
 ```
+<div dir="rtl">
 
-## 🟢 خروجی نهایی:
+### 🟢 نمونه خروجی نهایی:
+
+</div>
+
 ```
 🚨 SYSTEM CRASH
 
@@ -70,6 +76,7 @@ java RedoHistoryRecoveryInteractive
 ✅ Recovery complete. Current database: {A=val1, B=val2}
 
 ```
+<div dir="rtl">
 
 ## 📌 نکات قابل گسترش
 * اضافه‌کردن Compensation Log Entry (CLE)
@@ -79,3 +86,5 @@ java RedoHistoryRecoveryInteractive
 * نمایش گرافیکی روند Redo/Undo
 
 * اعمال NextUndoSeqNo برای جلوگیری از اجرای تکراری عملیات معکوس
+
+</div>
